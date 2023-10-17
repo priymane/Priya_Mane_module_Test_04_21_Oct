@@ -1,0 +1,28 @@
+.logindiv {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+  }
+  .logindiv .login_inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: red;
+    border-radius: 25px;
+    box-shadow: 2px 2px 100px black;
+    padding: 50px 100px;
+  }
+  .logindiv .login_inner h2 {
+    color: white;
+  }
+  .logindiv .login_inner button {
+    padding: 10px 20px;
+    border-radius: 25px;
+  }
+  .logindiv .login_inner button:hover {
+    background-color: rgb(182, 75, 42);
+    border: 2px solid black;
+    color: white;
+    transition: all 1s ease-in;
+  }/*# sourceMappingURL=login.css.map */
