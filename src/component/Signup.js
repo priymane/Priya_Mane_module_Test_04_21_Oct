@@ -29,8 +29,9 @@ const Signup = () => {
         let userToAdd = {
             Token: (generateRandomString(16)),
             Name: username,
+            Password: password, 
             Email: userEmail,
-            Password: password,  
+           
         };
         dispatch(addToken(userToAdd));
       };

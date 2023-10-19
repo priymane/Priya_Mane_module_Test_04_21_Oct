@@ -10,32 +10,37 @@
     transform: translate(-50%, -50%);
     display: flex;
     flex-direction: column;
-    background-color: rgb(233, 221, 199);
+    background-color: black;
     padding: 50px 100px;
     box-shadow: 2px 2px 100px black;
     border-radius: 25px;
+    cursor: pointer;
   }
   .signup_div .inner_div h2 {
-    color: orange;
+    color: pink;
+    font-size: 30px;
   }
   .signup_div .inner_div label {
-    background-color: orange;
+    background-color: pink;
     font-size: 18px;
     padding-top: 5px;
     padding-bottom: 5px;
-    color: white;
+    color: black;
+    cursor: pointer;
   }
   .signup_div .inner_div input {
     height: 30px;
     width: auto;
     margin-bottom: 10px;
     border: 1px solid white;
+    cursor: pointer;
   }
   .signup_div .inner_div button {
     width: auto;
     height: 30px;
-    background-color: orange;
-    color: white;
+    background-color: pink;
+    color: black;
     border: none;
-    font-size: 20px;
-  }/*# sourceMappingURL=signup.css.map */
+    font-size: 23px;
+    cursor: pointer;
+  }

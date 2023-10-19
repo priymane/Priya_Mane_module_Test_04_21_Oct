@@ -15,7 +15,7 @@ const Login = () => {
       dispatch(removeToken())
     };
     function Signup() {
-      navi("/");
+      navi("/Signup");
     }
     
   if (userLogin.length != 0){
