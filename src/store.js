@@ -1,8 +1,10 @@
 import { configureStore } from "@reduxjs/toolkit";
-import postReducer from './redux/postSlice';
+import productReducer from './Redux/productSlice';
+import cartReducer from './Redux/CartSlice';
 
 export default configureStore({
     reducer:  {
-        post: postReducer
+        product: productReducer,
+        cart: cartReducer,
     }
 });

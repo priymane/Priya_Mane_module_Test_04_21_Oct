@@ -1,26 +1,12 @@
-import { useEffect, useState } from "react";
-
-
-
-
+import { Link } from "react-router-dom";
 let Home = () => {
-
-   
-   
-    useEffect(()=>{
-      
-     {
-            callApi();
-        } 
-        
-    },[])
-    let callApi = async () => {
-        //fetch is used to make api calls.
-        let res = await fetch('https://dummyjson.com/products');
-        let jsonResponse = await res.json();
-        // console.log(jsonResponse);
-        //Adding custom delay
-    }
+    return (
+        <div className="navigation">
+            <Link className="nav-link" to={'/'}>Shopping cart</Link>
+            <div className="nav"><Link className="nav-link" to={'/'}>Home</Link>
+            <Link className="nav-link" to={'/cart'}>Cart Page</Link></div>
+            
+        </div>
+    )
 }
-
 export default Home;
